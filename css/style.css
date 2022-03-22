@@ -1,0 +1,88 @@
+/*dentro da div container mexe com os elementos*/
+.container{
+    width: 30vh ;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+    top: 30vh;
+    display: flex;
+    border: 2px solid black;
+    align-items: flex-end;
+
+}
+.r{
+    width: 100%;
+    height: 50%;
+    background: rgb(194, 54, 54);
+}
+.g{
+    width: 100%;
+    height: 100%;
+    background: rgb(82, 211, 82);
+}
+.b{
+    width: 100%;
+    height: 50%;
+    background: rgb(50, 50, 189);
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 30vh ;
+        height: 30vh;
+        margin: auto;
+        position: relative;
+        top: 30vh;
+        display: block;
+        border: 2px solid black;
+        align-items: flex-end;
+    
+    }
+    .r{
+        width: 30%;
+        height: 33%;
+        background: rgb(194, 54, 54);
+    }
+    .g{
+        width:100%;
+        height: 34%;
+        background: rgb(82, 211, 82);
+    }
+    .b{
+        width: 30%;
+        height: 33%;
+        background: rgb(50, 50, 189);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 30vh ;
+        height: 30vh;
+        margin: auto;
+        position: relative;
+        top: 30vh;
+        display: block;
+        border: 2px solid black;
+        align-items: flex-end;
+    
+    }
+    .r{
+        width: 30%;
+        height: 33%;
+        background: rgb(194, 54, 54);
+    }
+    .g{
+        width: 50%;
+        height: 34%;
+        background: rgb(82, 211, 82);
+    }
+    .b{
+        width: 100%;
+        height: 33%;
+        background: rgb(50, 50, 189);
+    }
+}
